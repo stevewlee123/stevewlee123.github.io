@@ -10,7 +10,7 @@ body{
 #Steve{
   /*background-color: black;*/
   position: relative;
-  padding: 10% 15% 7% 15%;
+  padding: 0 15% 7% 15%;
 }
 
 h1{
@@ -88,7 +88,7 @@ h1{
   white-space: nowrap;
   overflow: hidden;    
   font-family: 'Source Code Pro', monospace;  
-  font-size: 1rem;
+  font-size: 2rem;
   color: rgba(255,255,255,.70);
 }
 .typing {
@@ -99,7 +99,7 @@ h1{
 
 @keyframes animated-text{
   from{width: 0;}
-  to{width: 200px;}
+  to{width: 380px;}
 }
 
 /* cursor animations */
@@ -114,7 +114,7 @@ h1{
 
 
 #info{  
-  padding: 7% 15% 0 15%;
+  padding: 7% 15% 3% 15%;
 
 }
 
