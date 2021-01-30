@@ -1,8 +1,11 @@
 
-body{
+body,html{
   /*margin: 0 0 0 0;*/
   background-color: black;
   text-align: center;
+
+width: 100%;
+height: 100%;
 
 
 }
@@ -51,6 +54,23 @@ h1{
   to{border-right-color: transparent;}
 }
 
+#info{  
+  padding: 7% 15% 3% 15%;
+
+}
+
+#footer{
+  color: #fff;
+
+}
+
+.f-email{
+  color: #fff;
+  padding: 0 10px;
+}
+
+
+
 
 @media (max-width:980px){
 .typing {
@@ -82,13 +102,29 @@ h1{
 }
 
 @media (max-width:510px){
+  h1{
+  
+  font-family: 'Sacramento', serif;
+  font-size: 5.625rem;
+  color: #66BFBF;
+  font-weight: normal;
+  line-height: 2;
+}
+
+#Steve{
+  /*background-color: black;*/
+
+  padding: 0 7% 7% 7%;
+}
+
+
 .typing {
   margin: 0 auto 0 auto;
   border-right: solid 3px #fff;
   white-space: nowrap;
   overflow: hidden;    
   font-family: 'Source Code Pro', monospace;  
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: rgba(255,255,255,.70);
 }
 .typing {
@@ -99,7 +135,7 @@ h1{
 
 @keyframes animated-text{
   from{width: 0;}
-  to{width: 380px;}
+  to{width: 290px;}
 }
 
 /* cursor animations */
@@ -108,13 +144,10 @@ h1{
   from{border-right-color: #fff;}
   to{border-right-color: transparent;}
 }
-}
-
-
 
 
 #info{  
-  padding: 7% 15% 3% 15%;
+  margin-bottom: 10px;
 
 }
 
@@ -123,7 +156,9 @@ h1{
 
 }
 
-.f-email{
-  color: #fff;
-  padding: 0 10px;
 }
+
+
+
+
+
